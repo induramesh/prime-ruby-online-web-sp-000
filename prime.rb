@@ -9,7 +9,7 @@ def prime?(num)
   while iter < sqrt(num)  
     if n % iter == 0 
       return false 
-    iter++
+    iter += 1
   end 
     return true 
   end 
