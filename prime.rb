@@ -6,10 +6,10 @@ def prime?(num)
   else 
   #Check from 2 to sqrt(num-1)
   iter = 2 
-  while iter < sqrt(num)
-    if n % i == 0 
+  while iter < sqrt(num) do 
+    if n % iter == 0 
       return false 
-    i++
+    iter++
   end 
     return true 
   end 
