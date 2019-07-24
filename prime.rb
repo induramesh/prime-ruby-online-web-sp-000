@@ -1,13 +1,14 @@
 # Add  code here!
 
-def prime?(num)
-  if num <= 1
-    return false 
+ def prime? num
+  if num <= 1 
+    false
   else 
-  #Check from 2 to sqrt(num-1)
-  for i in 2..sqrt(num - 1)
-   if (num % i) == 0
-    return false
-   end
-  end
-end 
+    i = 2
+    while i < num
+      return false if num % i == 0
+      i += 1
+    end
+    true
+  end 
+end
