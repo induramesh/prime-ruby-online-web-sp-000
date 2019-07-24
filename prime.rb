@@ -5,7 +5,7 @@
     false
   else 
     i = 2
-    while i < num
+    while i < num^(1/2)
       return false if num % i == 0
       i += 1
     end
