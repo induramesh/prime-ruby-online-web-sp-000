@@ -1,11 +1,15 @@
 # Add  code here!
 
 def prime?(num)
-  if (n <= 1)  return false; 
+  if num <= 1
+    false 
+  else 
+  // Check from 2 to sqrt(num-1)
+  iter = 2 
+  while iter < num 
+    if n % i == 0 
+      false 
     
-      // Check from 2 to n-1 
-      for (int i=2; i<n; i++) 
-          if (n%i == 0) 
-              return false; 
-    
-      return true; 
+    true 
+  end 
+end 
